@@ -1,9 +1,15 @@
-# **** crear principal ***
+from cliente import cliente
+from saludo import saludo
 # *** codigo principal ***
-import cliente
 
-# creo el objeto cliente
-objCliente = Cliente()
+# creando objetos
+objcliente = cliente()
+objsaludo = saludo()
+#uso los metodos de los objetos
+objcliente.tomar_datos()
+aux_mensaje = objsaludo.hacer_saludo_formal()
+objcliente.hacer_saludo(aux_mensaje) 
+
+
 # llamo a los metodos del objeto
-objCliente.tomar_datos()
-objCliente.mostrar_info_cliente()
+
