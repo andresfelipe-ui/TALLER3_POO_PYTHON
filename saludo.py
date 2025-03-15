@@ -1,6 +1,5 @@
 class saludo:
    
-        
     def hacer_saludo_formal(self):
         mensaje = "Buenos saludos formales: "
         return mensaje
