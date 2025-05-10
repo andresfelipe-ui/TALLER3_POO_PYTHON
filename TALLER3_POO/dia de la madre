@@ -1,0 +1,11 @@
+.envelope-back .top-fold {
+    position: absolute;
+    inset: 0;
+    z-index: var(--fold-zindex, 10);
+    background-color: var(--envelope-clr-bg-top);
+    clip-path: polygon(0% 0%, 50% 55%, 100% 0%);
+    transform: var(--fold-rotate);
+    transform-origin: top;
+    transition: var(--duration) ease-in-out;
+    transition-delay: var(--fold-delay);
+}
